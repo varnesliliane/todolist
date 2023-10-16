@@ -41,4 +41,8 @@ public class TaskModel {
     @CreationTimestamp
     private LocalDateTime createdAt;
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
 }
